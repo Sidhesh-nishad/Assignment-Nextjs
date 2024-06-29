@@ -9,8 +9,8 @@ import Notification from "../public/Notification.svg";
 import Cart from "../public/Cart.svg";
 import Link from "next/link";
 import { useState } from "react";
-import Search from "../public/search.svg";
-import Hamburger from "../public/Hamburgur.svg";
+import Search from "../public/Search.svg";
+import Hamburger from "../public/hamburgur.svg";
 import Close from "../public/Close.svg";
 
 const Navbar = () => {
