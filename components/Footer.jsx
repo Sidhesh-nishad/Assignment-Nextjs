@@ -50,29 +50,29 @@ const Footer = () => {
                 <p className="text-sm font-bold leading-xs tracking-[0.07px]">
                     Social Media
                 </p>
-                <div className="flex gap-6 mt-4">
-                    <div className="flex items-center justify-center w-6 h-6 rounded-full bg-cpGray3">
+                <div className="flex gap-4 mt-4 overflow-hidden md:gap-6">
+                    <div className="flex items-center justify-center flex-shrink-0 w-6 h-6 rounded-full bg-cpGray3">
                         <Image src={facebook} alt="icon" />
                     </div>
-                    <div className="flex items-center justify-center w-6 h-6 rounded-full bg-cpGray3">
+                    <div className="flex items-center justify-center flex-shrink-0 w-6 h-6 rounded-full bg-cpGray3">
                         <Image src={twitter} alt="icon" />
                     </div>
-                    <div className="flex items-center justify-center w-6 h-6 rounded-full bg-cpGray3">
+                    <div className="flex items-center justify-center flex-shrink-0 w-6 h-6 rounded-full bg-cpGray3">
                         <Image src={instagram} alt="icon" />
                     </div>
-                    <div className="flex items-center justify-center w-6 h-6 rounded-full bg-cpGray3">
+                    <div className="flex items-center justify-center flex-shrink-0 w-6 h-6 rounded-full bg-cpGray3">
                         <Image src={printest} alt="icon" />
                     </div>
-                    <div className="flex items-center justify-center w-6 h-6 rounded-full bg-cpGray3">
+                    <div className="flex items-center justify-center flex-shrink-0 w-6 h-6 rounded-full bg-cpGray3">
                         <Image src={googlePlus} alt="icon" />
                     </div>
-                    <div className="flex items-center justify-center w-6 h-6 rounded-full bg-cpGray3">
+                    <div className="flex items-center justify-center flex-shrink-0 w-6 h-6 rounded-full bg-cpGray3">
                         <Image src={youtube} alt="icon" />
                     </div>
-                    <div className="flex items-center justify-center w-6 h-6 rounded-full bg-cpGray3">
+                    <div className="flex items-center justify-center flex-shrink-0 w-6 h-6 rounded-full bg-cpGray3">
                         <Image src={telegram} alt="icon" />
                     </div>
-                    <div className="flex items-center justify-center w-6 h-6 rounded-full bg-cpGray3">
+                    <div className="flex items-center justify-center flex-shrink-0 w-6 h-6 rounded-full bg-cpGray3">
                         <Image src={email} alt="icon" />
                     </div>
                 </div>
