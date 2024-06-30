@@ -4,7 +4,6 @@ import GoogleLogo from "../public/Google.svg";
 import FacebookLogo from "../public/Facebook.svg";
 import PasswordLogo from "../public/Password.svg";
 import LockLogo from "../public/Lock.svg";
-import { Input } from "postcss";
 import Eye from "../public/Eye.svg";
 import { useState } from "react";
 
@@ -123,7 +122,7 @@ const Form = () => {
                 </button>
             )}
             {currentTab === "JoinIn" && (
-                <button className="flex items-center justify-center w-full py-2 text-sm font-semibold leading-4 text-white border border-black rounded-lg md:py-3 bg-secondary">
+                <button className="flex items-center justify-center w-full py-2 text-sm font-semibold leading-4 text-white border rounded-lg border-secondary md:py-3 bg-secondary">
                     Agree and Continue
                 </button>
             )}
