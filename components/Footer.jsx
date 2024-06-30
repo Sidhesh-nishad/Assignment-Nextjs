@@ -83,7 +83,7 @@ const Footer = () => {
                     <input
                         placeholder="Email ID"
                         type="text"
-                        className="px-4 py-2 md:py-3 mt-4 border text-xs rounded-l-lg border-secondary outline-none max-w-[18.81rem]"
+                        className="px-3 py-2 md:py-3 mt-4 border text-xs rounded-l-lg border-secondary outline-none max-w-[18.81rem]"
                     />
                     <button className="md:p-3 py-2 px-2 text-xs font-semibold leading-4 border rounded-r-lg text-white border-secondary bg-secondary tracking-[0.06px]">
                         Invite
